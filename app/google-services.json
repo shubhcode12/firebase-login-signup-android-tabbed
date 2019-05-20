@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "127552777104",
+    "firebase_url": "https://fir-auth-1-da165.firebaseio.com",
+    "project_id": "fir-auth-1-da165",
+    "storage_bucket": "fir-auth-1-da165.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127552777104:android:705b6b22965fdebe",
+        "android_client_info": {
+          "package_name": "com.smtech.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127552777104-9pisfrqmp7arp19k9qn04ubgl3tlne0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7nObyUHJhTIDtJC9bW22wJTe0unLKBoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127552777104-9pisfrqmp7arp19k9qn04ubgl3tlne0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127552777104:android:2a0f827c5324cdd7",
+        "android_client_info": {
+          "package_name": "info.smtech.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127552777104-9pisfrqmp7arp19k9qn04ubgl3tlne0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7nObyUHJhTIDtJC9bW22wJTe0unLKBoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127552777104-9pisfrqmp7arp19k9qn04ubgl3tlne0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127552777104:android:94d131659ddd84bd",
+        "android_client_info": {
+          "package_name": "org.smtech.firebase.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127552777104-9pisfrqmp7arp19k9qn04ubgl3tlne0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7nObyUHJhTIDtJC9bW22wJTe0unLKBoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127552777104-9pisfrqmp7arp19k9qn04ubgl3tlne0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
