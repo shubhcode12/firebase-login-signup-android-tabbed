@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/firebase-login-signup-android.iml" filepath="$PROJECT_DIR$/firebase-login-signup-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="firebase-login-signup-android-tabbed/app" />
+      <module fileurl="file://$PROJECT_DIR$/firebase-login-signup-android-tabbed.iml" filepath="$PROJECT_DIR$/firebase-login-signup-android-tabbed.iml" group="firebase-login-signup-android-tabbed" />
     </modules>
   </component>
 </project>

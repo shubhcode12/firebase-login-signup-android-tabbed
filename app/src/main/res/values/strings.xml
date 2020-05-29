@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">FLS APP</string>
+    <string name="app_name">App Name</string>
 
     <string name="login_text">LOGIN</string>
     <string name="register_text">REGISTER</string>
     <string name="login_reg_btn_text">Register a new Account</string>
     <string name="reg_btn_text">Create an Account</string>
     <string name="reg_login_text">Already have Account? Log in</string>
+    <string name="web_client_id">127552777104-9pisfrqmp7arp19k9qn04ubgl3tlne0p.apps.googleusercontent.com</string>
 
     <string name="login_btn_text">sign in</string>
 

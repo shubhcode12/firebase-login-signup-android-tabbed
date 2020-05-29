@@ -35,7 +35,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@mipmap/ic_launcher"
+                    android:src="@drawable/user"
                     android:layout_gravity="center"/>
 
                 <TextView
@@ -48,55 +48,76 @@
                     android:textColor="@color/colorWhite"
                     android:layout_marginBottom="8dp"/>
 
-                <EditText
-                    android:id="@+id/login_email"
+                <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="45dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/edittext_button_style_rounded"
-                    android:drawableRight="@drawable/ic_email_white_24dp"
-                    android:hint="@string/email_hint"
-                    android:inputType="textEmailAddress"
-                    android:textColor="@color/colorGray"
-                    android:textColorHint="@color/colorBlack" />
+                    android:layout_height="match_parent">
 
-                <EditText
-                    android:id="@+id/login_password"
+
+                    <EditText
+                        android:id="@+id/login_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/edittext_button_style_rounded"
+                        android:drawableRight="@drawable/ic_email_white_24dp"
+                        android:hint="@string/email_hint"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/colorGray"
+                        android:textColorHint="@color/colorBlack" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="45dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/edittext_button_style_rounded"
-                    android:textColor="@color/colorGray"
-                    android:textColorHint="@color/colorBlack"
-                    android:hint="@string/password_hint"
-                    android:inputType="textPassword"
-                    android:drawableRight="@drawable/ic_lock_outline_white_24dp"/>
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/login_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/edittext_button_style_rounded"
+                        android:textColor="@color/colorGray"
+                        android:textColorHint="@color/colorBlack"
+                        android:hint="@string/password_hint"
+                        android:inputType="textPassword"
+                        android:drawableRight="@drawable/ic_lock_outline_white_24dp"/>
+                </android.support.design.widget.TextInputLayout>
 
                 <Button
                     android:id="@+id/login_btn"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:textColor="@color/colorBlack"
+                    android:layout_marginTop="15sp"
                     android:text="@string/login_btn_text"
                     android:background="@drawable/edittext_button_style_rounded"/>
 
                 <Button
                     android:id="@+id/reg_btn"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:layout_marginBottom="8dp"
                     android:layout_marginTop="35dp"
-                    android:paddingTop="20dp"
-                    android:paddingBottom="20dp"
                     android:text="@string/login_reg_btn_text"
                     android:textAllCaps="false"
                     android:background="@drawable/reg_btn_style"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textColor="@color/colorWhite" />
 
             </LinearLayout>
 
         </LinearLayout>
+
+        <com.google.android.gms.common.SignInButton
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_in_button"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp">
+
+        </com.google.android.gms.common.SignInButton>
 
     </RelativeLayout>
 

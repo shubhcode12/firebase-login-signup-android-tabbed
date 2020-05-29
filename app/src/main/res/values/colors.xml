@@ -10,4 +10,8 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBlack">#000000</color>
     <color name="colorGray">#2D2D2D</color>
+
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
 </resources>

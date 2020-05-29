@@ -8,19 +8,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CalendarView;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.smtech.firebase.MainActivity;
-import com.smtech.firebase.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
-import java.util.HashMap;
+import com.smtech.firebase.MainActivity;
+import com.smtech.firebase.R;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -30,6 +29,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     private Button registerButton;
     private Button loginButton;
+    private CalendarView calendarView;
 
     private ProgressBar registerProgress;
 
@@ -40,6 +40,7 @@ public class RegisterActivity extends AppCompatActivity {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
 
         mAuth = FirebaseAuth.getInstance();
 
